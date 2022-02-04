@@ -1,6 +1,6 @@
 import React from "react";
-import axios from "axios";
-import { motion } from "framer-motion";
+//import axios from "axios";
+//import { motion } from "framer-motion";
 import "./styles.css";
 
 const url = "https://jsonplaceholder.typicode.com/posts";

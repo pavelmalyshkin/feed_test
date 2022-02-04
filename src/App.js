@@ -26,9 +26,10 @@ class App extends React.Component {
         <div className="layout">
           <h3>Blog Posts</h3>
           {posts.map((posts) => (
-            <div className="card" key={posts}>
-              <h4>Post Number one</h4>
-              <p>dataSource = {posts}</p>
+            <div className="card" key={posts.id}>
+              <h4>{posts.title}</h4>
+              <p>from user {posts.userId}</p>
+              <p>{posts.body}</p>
             </div>
           ))}
         </div>
